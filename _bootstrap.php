@@ -39,7 +39,7 @@ if (strcasecmp($region, "ASIA_PACIFIC") == 0) {
 } else if (strcasecmp($region, "NORTH_AMERICA") == 0) {
     $prefix = 'na-';
 } else if (strcasecmp($region, "MTF") == 0) {
-    $prefix = 'baiduri-bpgs.mtf.';
+    $prefix = 'baiduri-bpgs.';
 } else if (strcasecmp($region, "QA01") == 0) {
     $prefix = 'qa01.';
 } else {
